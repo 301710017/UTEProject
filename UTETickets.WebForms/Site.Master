@@ -1,0 +1,55 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="UTETickets.WebForms.Site" %>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>UTETickets</title>
+    <meta name="  viewport" content="widt=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/StyleSheet.css">
+</head>
+
+<body>
+    <!--Separación-->
+    <header>
+        <nav class="navbar navbar-inverse navbar-static-top">
+        </nav>
+    </header>
+    <!--Logo-->
+    <section class="jumbotron">
+        <div class="container">
+            <p class="centrar"><img src="images/UTETLogo.PNG" width="200" height="200"></p>
+            
+        </div>
+    </section>
+    <form id="Form1" runat="server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    </form>
+
+
+    <footer class="page-footer">
+         <nav class="navbar navbar-inverse navbar-static-top">
+        </nav>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">
+            © 2019 Copyright: UTETickets-José Luis Ramírez Castellanos
+    
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+       ================================================== -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

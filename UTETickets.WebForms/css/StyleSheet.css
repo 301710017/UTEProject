@@ -1,0 +1,78 @@
+/*Header*/
+.navbar{
+    margin-bottom:5px;
+}
+
+.jumbotron{
+    background:#008000;
+    color:#ffffff;
+    padding: 20px 0;
+}
+
+.titulo-blog{
+    font-size: 50px;
+}
+
+.col-sm-1 {
+    background: #ffffff;
+    color: #fff;
+}
+
+.col-sm-2 {
+    background: #ffffff;
+    color: #fff;
+}
+
+.col-lg {
+    background: #ffffff;
+    color: #000000;
+    border: 5px solid #008000;
+}
+.col-lg-2 {
+    background: #ffffff;
+    color: #000000;
+    border: 5px solid #008000;
+}
+
+
+.fomclass{
+    padding:100%;
+    margin-top:100%;
+    background:#ffffff;
+    width:200px;
+}
+
+.centrar {
+    text-align: center;
+    font-family:'Aficionado DEMO';
+    color:#003300;
+}
+
+.centrarp {
+    text-align: center;
+    font-family:'Blackadder ITC';
+    color: #000000;
+}
+
+
+
+
+
+.footer-copyright {
+    background: #008000;
+    color: #ffffff;
+}
+
+.h1 {
+    text-align: "center"
+}
+
+.login {
+    border: 1px solid #868686;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 10px 10px 25px;
+    background: url(~\Image\ruta.png) left center no-repeat;
+    background-color: #EDEDED;
+    width: 100px;
+}
